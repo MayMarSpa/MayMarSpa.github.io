@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  padding: 50px;
+  width: 90px;
+}
+
+
+
+.titulo {
+  color: #ff7e99;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+  
+  
+
+}
+
+header {
+  width: 100%;
+  height: 120px;
+  background: #ffb5ce;
+  margin-bottom: 10px;
+}
+
+nav {
+  text-align: right;
+  padding: 30px 50px 0 0;
+}
+
+nav > a {
+  /* Para darle color a las letras de la derecha,
+    que salga el puntero*/
+  color: #fffbf3;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav > a:hover {
+  /*linea por debajo */
+  text-decoration: underline;
+}
+
+header .textos-header {
+  display: flex; /*Alinea el texto del header*/
+  height: 430px;
+  width: 100%;
+  flex-direction: column;
+  text-align: justify;
+}
+
+header .textos-header h1 {
+  position: relative;
+  top: -10px;
+  padding-left: 60px;
+}
+
+header .textos-header p {
+  position: relative;
+  top: -10px;
+  padding-left: 20px;
+  text-align: justify;
+}
+
+.contenedor-sobre-nosotros {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 0px 15px}
+
+.imagen-about-us {
+  width: 30%;
+  border-radius: 25px;
+}
+
+.contenedor-sobre-nosotros .contenido-textos {
+  width: 48%;
+}
+
+.contenido-textos h3 {
+  margin-bottom: 15px; /* establese el esepacio requerido 
+                        en la parte inferiror de un elemento*/
+}
+
+.contenido-textos h3 span {
+  background: pink;
+  color: #fffbf3;
+  border-radius: 50px; /*Hacee el borde redondo*/
+  display: inline-block; /*Propiedad de bloque*/
+  text-align: center; /*Se centra del contorno */
+  width: 25px;
+  padding: 2px;
+  box-shadow: 0 0 6px 0 #e976af; /*Vorde al sirculo*/
+  margin-right: 5px;
+}
+
+.contenido-textos p {
+  padding: 0px 0px 30px 15px;
+}
+
+  /*
+  Tablas
+  **/
+
+  .tablas{
+    background-color:  #fffbf3;
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    
+  }
+
+  .tabla-servicios{
+    width: 500px;
+    
+  }
+
+  .tabla-servicios{
+    width: 500px;
+    
+  }
+
+  table{
+    width: 80%;
+    margin: 50px;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    background-color: pink;
+  }
+
+  table thead{
+    background-color: #ff7e99;
+    color: #fffbf3;
+  }
+
+
+  /* footer**/
+footer{
+  background:#ffb5ce ;
+  padding: 60px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contenedor-footer{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ff7e99;
+}
+
+.contenedor-foo{
+  text-align: center;
+}
+
+.contenedor-foo .text{
+  margin: 50px 0 150px 0;
+}
+.contenedor-foo a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.contenedor-foo a:hover{
+  text-decoration:underline;
+}
+.contenedor-foo h4{
+  color: #393939;
+  border-bottom: 3px solid #ff7e99;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+  margin: 20px;
+  color: #ff7e99;
+}

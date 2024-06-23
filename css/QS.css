@@ -1,0 +1,33 @@
+.quienes-somos {
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos equitativamente a lo largo del contenedor */
+    align-items: center; /* Centra los elementos verticalmente */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a una nueva fila si no hay suficiente espacio */
+    background-color:rgb(254, 228, 238);
+    margin-bottom: 40px;
+    padding: 20px 0 20px 0;
+
+}
+
+.contenido-textos-qs {
+    width: 30%; /* Define el ancho de cada sección */
+    text-align: center; /* Centra el texto dentro de cada sección */
+    margin-bottom: 20px;
+    background-color: #fb81a3;
+    border-radius: 25px;/* Espacio entre cada sección */
+    padding: 10px 10px 10px 10px;
+}
+
+.contenido-textos-qs h3 {
+    background: floralwhite;
+    color: #000000;
+    border-radius: 25px; /*Hacee el borde redondo*/
+    display: inline-block;
+    margin-bottom: 10px; /* Espacio debajo de cada título */
+    box-shadow: 0 0 6px 0 #fb81a3; /*Vorde al sirculo*/
+    margin-right: 5px;
+    width: 100px;
+}
+.contenido-textos-qs p {
+    text-align: justify;
+}

@@ -1,0 +1,22 @@
+.galeria-port {
+    display: flex; /* Utilizamos flexbox para alinear las imágenes en una fila */
+    justify-content: center; /* Centramos horizontalmente las imágenes */
+    align-items: center;
+    margin-bottom: 40px; /* Centramos verticalmente las imágenes */
+    background-color:rgb(254, 228, 238);
+    padding: 20px 0 20px 0;
+}
+
+
+.img-port {
+    margin: 0 20px; 
+    overflow: hidden; /* Ocultamos cualquier parte de las imágenes que sobresalga del contenedor */
+}
+
+.img-port img {
+    width: 100%; 
+    height: auto; /* Permitimos que la altura se ajuste automáticamente para mantener la proporción de la imagen */
+    border-radius: 35px; 
+     width: 400px; 
+    height: 400px; 
+}
